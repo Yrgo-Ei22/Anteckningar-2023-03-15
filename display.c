@@ -12,12 +12,12 @@
 * Makrodefinitioner:
 ********************************************************************************/
 #define DISPLAY1_CATHODE PORTD7 /* Katod för display 1. */
-#define DISPLAY2_CATHODE PORTC3 /* Katod för display 1. */
+#define DISPLAY2_CATHODE PORTC3 /* Katod för display 2. */
 
 #define DISPLAY1_ON  PORTD &= ~(1 << DISPLAY1_CATHODE) /* Tänder display 1. */
 #define DISPLAY2_ON  PORTC &= ~(1 << DISPLAY2_CATHODE) /* Tänder display 2. */
 #define DISPLAY1_OFF PORTD |= (1 << DISPLAY1_CATHODE)  /* Släcker display 1. */
-#define DISPLAY2_OFF PORTC |= (1 << DISPLAY2_CATHODE)  /* Släcker display 1. */
+#define DISPLAY2_OFF PORTC |= (1 << DISPLAY2_CATHODE)  /* Släcker display 2. */
 
 #define OFF 0x00   /* Binärkod för släckning av 7-segmentsdisplay. */
 #define ZERO 0x3F  /* Binärkod för utskrift av heltalet 0 på 7-segmentsdisplay. */
