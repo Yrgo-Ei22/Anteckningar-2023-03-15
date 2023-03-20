@@ -19,9 +19,5 @@ Som exempel, det decimala talet 74 delas in i tiotal och ental enligt nedan:
 tiotal = 74 / 10 = 7 (heltalsdivision)
 ental = 74 - 7 * 10 = 4
 
-Filen "ATmega328P device drivers - 7-segment displays demo start_code.zip" innehåller startkoden innefattande
-funktionsbeskrivningar för drivrutiner, ett flertal makrodefinitioner samt filglobala variabler.
-
-Resterande filer innehåller de slutförda drivrutinerna. 
-Vid start sker uppräkning från 0 - 99 på 7-segmentsdisplayerna med en uppräkningshastighet på 1000 ms.
+I bifogat program sker uppräkning från 0 - 99 på 7-segmentsdisplayerna med en uppräkningshastighet på 1000 ms.
 Via anrop av drivrutiner display_set_radix samt display_set_count kan talbasen, uppräkningsriktningen samt uppräkningshastigheten justeras efter behov.
